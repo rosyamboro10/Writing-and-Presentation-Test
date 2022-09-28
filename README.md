@@ -72,7 +72,7 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
 
 - rm-R atau rm-d untuk menghapus direktori.
 
-![img](Gambar/gambar24.JPG)
+    ![img](Gambar/gambar24.JPG)
 
 
 ### Git & Github
@@ -273,7 +273,7 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
 3. column: letak item child membentuk sebuah baris dari atas ke bawah
 4. column-reverse: letak item child membentuk sebuah baris dari bawah ke atas
 
-    ![img](Gambar/gambar27.JPG)
+![img](Gambar/gambar27.JPG)
 
 * flex-wrap
     - lex secara default akan membuat tata letak item children dalam 1 line saja. flex akan menyesuaikan space yang ada.
@@ -501,14 +501,15 @@ do{
     Statement(a);
 } while (ezpression);
 ```
+
 ![img](Gambar/gambar35.jpg)
 
 ![img](Gambar/gambar36.jpg)
 
 * Nested Loop, Adalah jika kita membuat looping didalam looping. Looping pertama dianalogikan sebagai baris. Looping kedua dianalogikan sebagai kolom.
 
-![img](Gambar/gambar37.jpg)
+    ![img](Gambar/gambar37.jpg)
 
-![img](Gambar/gambar38.jpg)
+    ![img](Gambar/gambar38.jpg)
 
 
