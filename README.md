@@ -21,6 +21,7 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
    ![img](Gambar/gambar11.JPG)
 
 - ls (list), untuk melihat isi file yang ada dari direktori.
+
    ![img](Gambar/gambar13.JPG)
 
 - cd (change direktori), untuk berpindah direktori. **(direktori = folder)** 
@@ -30,35 +31,47 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
 - cat, untuk menampilkan isi dari file (Seluruh isi yang ada),
 - head, untuk menampilkan isi dari bagian atas file.
 - tail, untuk menampilkan isi dari sebuah file dari bagian bawah.
+
     ![img](Gambar/gambar22.JPG)
+
 - mkdir, untuk membuat direktori baru.
+
    ![img](Gambar/gambar14.JPG)
 
 - touch, untuk membuat file baru.
+
    ![img](Gambar/gambar15.JPG)
 
 - cp, untuk menyalin file. cara penulisan yaitu : cp fileDicopy filebaru(dalam 1 folder) 
+
 ![img](Gambar/gambar16.JPG)
 
     cp fileDicopy /e/filebaru(beda direktori)).
+
 ![img](Gambar/gambar17.JPG)
 
 - cp-R, untuk menyalin direktori.
+
 ![img](Gambar/gambar18.JPG)
 
 - mv (move), untuk memindahkan file (penggunaan nya: mv namaFile /e/FileBaru).
+
 ![img](Gambar/gambar19.JPG)
 
     selain itu digunakan untuk mengubah nama folder (penggunaannya: mv namaFile NamaFileBaru)
+
 ![img](Gambar/gambar20.JPG)
 
 - mv-R, untuk memindahkan direktori.
+
 ![img](Gambar/gambar21.JPG)
 
 - rm (remove), untuk menghapus file secara permanen.
+
 ![img](Gambar/gambar23.JPG)
 
 - rm-R atau rm-d untuk menghapus direktori.
+
 ![img](Gambar/gambar24.JPG)
 
 
@@ -69,15 +82,18 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
 * Git adalah (software) alat untuk membuat version control system (save data, kembali ke data sebelumnya atau sesudahnya). sedangkan Github adalah platform untuk mengupload codingan. jadi, Git dan Github berbeda namun berhubungan.
 * pilih folder yang akan digunakan, klik kanan pilih gitbash. kemudian tuliskan **git init** , dengan ini akan dibuatkan local repo di folder yang sama bernama **.git**.
 * ketik **git add .** digunakan untuk menyimpan file di direktori dan bersifat sementara.
+
 ![img](Gambar/gambar44.JPG)
 
 * ketik **git status** untuk melihat apa ada perubahan atau tidak.
 * ketik **git commit -m** digunakan untuk menyimpan perubahan secara permanen. 
+
 ![img](Gambar/gambar45.JPG)
 
 * Buat repository baru di akun github.
 * salin git remote ke terminal dan jalankan.
 * ketik git push -u origin main.
+
 ![img](Gambar/gambar46.JPG)
 
 * untuk melakukan cloning pilih code kemudian salin link, ketik git clone tempel link.
@@ -90,9 +106,11 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
 * HTML bersifat statis, hanya bertugas menampilkan konten yang diminta developer.
 * Tool utama yang harus dipersiapkan untuk membuat HTML yaitu Browser dan Code editor. Untuk hal ini kita menggunakan chrome untuk browser dan vs code untuk code editor.
 * Berikut contoh HTML sederhana :
+
 ![img](Gambar/gambar02.JPG)
 
 * Dengan output sebagai berikut :
+
 ![img](Gambar/gambar03.JPG)
 
 * Menjalankan HTML secara manual dengan cara klik dua kali pada nama file html (Dimana file html itu disimpan) kemudian akan muncul tampilan html di browser.
@@ -116,15 +134,19 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
         </video>```
         * controls digunakan untuk mengatur videonya di play atau pause dan indikator menit.
 - `<table>`, Syntax nya :
+
     ![img](Gambar/gambar04.JPG)
 
     * Output yang dihasilkan sebagai berikut :
+
     ![img](Gambar/gambar05.JPG)
 
 - `<form>`, Syntax nya :
+
     ![img](Gambar/gambar06.JPG)
 
     * Output yang dihasilkan sebagai berikut :
+
     ![img](Gambar/gambar07.JPG)
 
 **Semantic HTML** digunakan untuk memudahkan programmer membaca kode. contoh semantic berupa :
@@ -139,15 +161,25 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
     - Buat akun netlify dengan akun github
     - pilih add new site, kemudian import an existing project
     - akan muncul tampilan seperti dibawah ini :
+
         ![img](Gambar/gambar39.JPG)
+
     - pilih github sehingga menampilkan :
+
         ![img](Gambar/gambar40.JPG)
+
     - kemudian pilih Autorize Netlify, akan tampil :
+
         ![img](Gambar/gambar41.JPG)
+
     - pilih repositori github yang akan dipublish, akan tampil :
+
         ![img](Gambar/gambar42.JPG)
+
     - Kemudian klik deploy site, sehingga akan dipublish dan kita mendapatkan alamat untuk diakses diinternet.
+
         ![img](Gambar/gambar43.JPG)
+
     
 
 ## Day 3
@@ -183,9 +215,11 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
      - blue sebagai value.
 
 * contoh styling css pada halaman HTML
+
 ![img](Gambar/gambar08.JPG)
 
 * output dibrowser seperti dibawah ini :
+
 ![img](Gambar/gambar09.JPG)
 
 * Flexbox adalah cara untuk mengatur layout. flexbox direkomendasikan karena penggunaannya yang mudah dan didukung oleh kebanyakan browser.
@@ -226,9 +260,11 @@ Sebelumnya aplikasi berdasarkan tampilan ada 2 yaitu:
     ```
 
 - output :
+
 ![img](Gambar/gambar10.JPG)
 
 * untuk properti dan value lainnya bisa cek didokumentasi pada link di bawah ini:
+
  https://yoksel.github.io/flex-cheatsheet/#flex-direction
 
 * Flex-direction, properti flex-direction digunakan untuk mengatur letak item child.  ada 4 value flex-direction yang harus kamu ketahui:
@@ -340,6 +376,7 @@ let myName = `David Winalda`;
 - Logical Operator, digunakan untuk sebuah **Conditional** pada pemrograman. Menghasilkan Nilai BOOLEAN yaitu **TRUE** or **FALSE**. 
 - Simbol dari Logical Operator :
     * AND operator : && , akan menghasilkan nilai true jika kedua atau semua premis bernilai true.
+
     ![img](Gambar/gambar29.JPG)
 
         ```
@@ -351,7 +388,7 @@ let myName = `David Winalda`;
 
     * OR operator :|| , akan menghasilka nilai true jika salah satu premis mengandung nilai TRUE.
 
-    ![img](Gambar/gambar30.JPG)
+        ![img](Gambar/gambar30.JPG)
 
      ```
         if(day === 'Saturday' || day 'Sunday){
@@ -412,14 +449,17 @@ if(stoplight = 'red' ){
 
 ```
 - Trhuty and Falsy, digunakan untuk mengecek apakah variabel telah terisi namun tidak mementingkan nilai nya.
+
 ![img](Gambar/gambar31.JPG)
 
 - Thruty and Falsy Assignment, Analoginya adalah jika kita memiliki sebuah website dan meminta inputan username lalu menampilkannya. Jika username kosong kita bisa isi nilai tersebut.
 
 - Switch Case Conditional, Gunakan switch case jika kondisi dan percabangan terlalu banyak. syntax nya sebagai berikut :
+
 ![img](Gambar/gambar32.JPG)
 
 -Ternary Operator, merupakan short syntax dari statement if ...else.
+
 ![img](Gambar/gambar33.JPG)
 
 ### Js Dasar-Looping
@@ -452,6 +492,7 @@ while(expression){
     Statement
 }
 ```
+
 ![img](Gambar/gambar34.jpg)
 
 * Do while, pengulangan dilakukan terlebih dahulu kemudian pengecekan kondisi. Syntax nya :
@@ -461,10 +502,13 @@ do{
 } while (ezpression);
 ```
 ![img](Gambar/gambar35.jpg)
+
 ![img](Gambar/gambar36.jpg)
 
 * Nested Loop, Adalah jika kita membuat looping didalam looping. Looping pertama dianalogikan sebagai baris. Looping kedua dianalogikan sebagai kolom.
+
 ![img](Gambar/gambar37.jpg)
+
 ![img](Gambar/gambar38.jpg)
 
 
