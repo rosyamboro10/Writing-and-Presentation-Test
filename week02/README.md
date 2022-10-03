@@ -390,6 +390,6 @@ foo = true; // foo is now a boolean
 * Checkbox – memandu Anda tentang cara memanipulasi kotak centang di JavaScript.
 * Select box – pelajari cara menangani kotak pilih dan opsinya di JavaScript.
 * Add / Remove Options – bagaimana Anda cara menambahkan opsi secara dinamis dan menghapus opsi dari kotak pilih .show you how to dynamically add options to and remove options from a select box.
-* Removing Items from <select> element conditionally – menunjukkan kepada Anda cara menghapus item dari elemen <select> secara kondisional.
+* Removing Items from `<select>` element conditionally – menunjukkan kepada Anda cara menghapus item dari elemen `<select>` secara kondisional.
 * Handling change event – lpelajari cara menangani peristiwa perubahan teks input, tombol radio, kotak centang, dan elemen pilih.
 * Handling input event – menangani kejadian input ketika nilai elemen input berubah.
